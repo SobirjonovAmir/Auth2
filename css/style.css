@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body {
+  background-color: #171717;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Авторизация */
+.auth {
+  margin: 150px auto;
+  max-width: 450px;
+  padding: 30px;
+  background: #232323;
+  border-radius: 5px;
+}
+.auth__title {
+  color: white;
+  font-size: 24px;
+}
+
+.form__input {
+  padding: 0 20px;
+  width: 91%;
+  height: 40px;
+  border: 1.5px solid rgba(139, 140, 140, 0.2901960784);
+  outline: none;
+  color: #8b8c8c;
+  background-color: #232323;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.form__button {
+  color: rgba(139, 140, 140, 0.7803921569);
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: rgba(78, 78, 78, 0.2901960784);
+  border-radius: 5px;
+  margin-top: 65px;
+  cursor: pointer;
+}
+
+.form__relative {
+  position: relative;
+}
+.form__relative .form__input {
+  position: absolute;
+}
+.form__relative .form__forgot-password {
+  color: rgba(139, 140, 140, 0.5294117647);
+  text-decoration: none;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.form__relative a {
+  font-size: 14px;
+}
+
+.social-login__title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgba(139, 140, 140, 0.631372549);
+  font-size: 16px;
+  text-align: center;
+}
+.social-login .social-login__icons {
+  width: 30px;
+  margin: 0 auto;
+}
+.social-login__img {
+  width: 30px;
+}
